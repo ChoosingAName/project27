@@ -63,6 +63,6 @@ function mouseDragged(){
 }
 function keyPressed(){
   if(keyCode === UP_ARROW){
-    Matter.Body.applyForce(pendulum1.body,pendulum1.body.position,{x:400,y:-700})
+    Matter.Body.applyForce(pendulum1.body,pendulum1.body.position,{x:-40,y:-25})
   }
 }
